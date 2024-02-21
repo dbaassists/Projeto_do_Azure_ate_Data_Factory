@@ -33068,6 +33068,185 @@
       "containerId": null,
       "originalText": "Subscription - ss-workshop-azure\nResource Group - rg-workshop-azure\nAzure Storage Account - asaworkshopazure\nAzure SQL Database - asqldb-workshop-azure\nAzure Data Factory - adf-workshop-azure\nAzure Key Vault - akv-workshop-azure\nAzure Databricks - adb-workshop-azure",
       "lineHeight": 1.25
+    },
+    {
+      "type": "text",
+      "version": 244,
+      "versionNonce": 576200361,
+      "isDeleted": false,
+      "id": "j_LHz31uzXe4i-H7da26d",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": -607.2258437148564,
+      "y": 100362.39585481863,
+      "strokeColor": "#000000",
+      "backgroundColor": "#40c057",
+      "width": 821.5728410993303,
+      "height": 355.0006103515625,
+      "seed": 25960009,
+      "groupIds": [
+        "QZO9lIUs4hqBPq94-i8PI"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1708478750718,
+      "link": null,
+      "locked": false,
+      "fontSize": 284.00048828125,
+      "fontFamily": 1,
+      "text": "DATA",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "DATA",
+      "lineHeight": 1.25,
+      "baseline": 250
+    },
+    {
+      "type": "line",
+      "version": 2773,
+      "versionNonce": 1706900583,
+      "isDeleted": false,
+      "id": "91kjK42iOEjfhhKWeYoU5",
+      "fillStyle": "cross-hatch",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "x": -1012.5914064580815,
+      "y": 100413.79957565205,
+      "strokeColor": "#495057",
+      "backgroundColor": "#ced4da",
+      "width": 271.3536153033423,
+      "height": 314.6511239144961,
+      "seed": 283340073,
+      "groupIds": [
+        "0i6T_rONghFYgYJ889gfS",
+        "QZO9lIUs4hqBPq94-i8PI"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "updated": 1708478750718,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          217.3477381326626
+        ],
+        [
+          4.754020621516583,
+          256.65212751349014
+        ],
+        [
+          37.387548981063105,
+          271.09317077934594
+        ],
+        [
+          86.2647591508694,
+          282.51223988454876
+        ],
+        [
+          138.3860125321643,
+          285.4611453060952
+        ],
+        [
+          182.8852659461616,
+          282.52089014167393
+        ],
+        [
+          224.6221171459404,
+          275.25229353767025
+        ],
+        [
+          266.2514893862303,
+          255.10308259598006
+        ],
+        [
+          269.0971995928208,
+          217.3477381326626
+        ],
+        [
+          271.3536153033423,
+          29.605242246636067
+        ],
+        [
+          267.9273950132433,
+          -0.9464566447598882
+        ],
+        [
+          234.19853017916842,
+          -17.244496438509415
+        ],
+        [
+          196.34441293903984,
+          -26.477033177183014
+        ],
+        [
+          147.13242770315242,
+          -29.18997860840092
+        ],
+        [
+          115.89815736211378,
+          -29.111026996006505
+        ],
+        [
+          49.3867800533879,
+          -23.238779021039374
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "ellipse",
+      "version": 1024,
+      "versionNonce": 1292919177,
+      "isDeleted": false,
+      "id": "NmNVkBhX2PX0PxsWDRvlv",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "x": -1011.7654929060109,
+      "y": 100380.53159903067,
+      "strokeColor": "#495057",
+      "backgroundColor": "#ffffff",
+      "width": 270.87317239123536,
+      "height": 73.6490284180344,
+      "seed": 439214089,
+      "groupIds": [
+        "0i6T_rONghFYgYJ889gfS",
+        "QZO9lIUs4hqBPq94-i8PI"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1708478750718,
+      "link": null,
+      "locked": false
     }
   ],
   "appState": {

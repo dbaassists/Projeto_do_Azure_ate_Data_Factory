@@ -1,0 +1,41 @@
+[33mcommit 6393e1ddfac223fdb4e16b2d58bb646bfcadb3be[m[33m ([m[1;36mHEAD -> [m[1;32matualizacao_projeto_20240220[m[33m)[m
+Author: Gabriel Quintella <dbaassits@gmail.com>
+Date:   Tue Feb 20 22:13:54 2024 -0300
+
+    Atualização do dia 2024-02-20
+
+[33mcommit e975d8c6bd1f58ab63ca35c8db7d4addcde197a4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mAtualizacao_20240217_02[m[33m)[m
+Merge: 5a88822 71653ac
+Author: DBA Assists <83104598+dbaassists@users.noreply.github.com>
+Date:   Sat Feb 17 11:15:33 2024 -0300
+
+    Merge pull request #2 from dbaassists/Atualizacao_20240217_02
+    
+    Segundo Commit do Projeto - 2024-02-27
+
+[33mcommit 71653ac4a890b9e4c931a313a584bcf63a38f770[m[33m ([m[1;31morigin/Atualizacao_20240217_02[m[33m)[m
+Author: Gabriel Quintella <dbaassits@gmail.com>
+Date:   Sat Feb 17 11:14:43 2024 -0300
+
+    Segundo Commit do Projeto - 2024-02-27
+
+[33mcommit 5a888229874b7db56bdbf4c158e1d1300e8afae5[m
+Merge: 830088f 85d6938
+Author: DBA Assists <83104598+dbaassists@users.noreply.github.com>
+Date:   Sat Feb 17 11:07:38 2024 -0300
+
+    Merge pull request #1 from dbaassists/Atualizacao_20240217
+    
+    Primeiro Commit do Projeto - 2024-02-27
+
+[33mcommit 85d6938bc4891234642742475ca3b04e1a70e1fd[m[33m ([m[1;31morigin/Atualizacao_20240217[m[33m, [m[1;32mAtualizacao_20240217[m[33m)[m
+Author: Gabriel Quintella <dbaassits@gmail.com>
+Date:   Sat Feb 17 11:06:43 2024 -0300
+
+    Primeiro Commit do Projeto - 2024-02-27
+
+[33mcommit 830088f744c2918ad9bb78397e521a0449c76503[m[33m ([m[1;32mmain[m[33m)[m
+Author: DBA Assists <83104598+dbaassists@users.noreply.github.com>
+Date:   Sat Feb 17 11:03:36 2024 -0300
+
+    Initial commit
