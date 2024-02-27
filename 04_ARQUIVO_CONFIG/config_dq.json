@@ -1,0 +1,9 @@
+{
+	"Config":
+	{
+	"server": "localhost\\DBAASSISTS",
+	"database": "DQ",
+	"username": "usr_dq",
+	"password": "prjDQ202!"
+	}
+}
