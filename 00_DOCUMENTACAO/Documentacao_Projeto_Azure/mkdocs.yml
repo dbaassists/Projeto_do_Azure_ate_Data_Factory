@@ -1,0 +1,46 @@
+site_name: Projeto BI com Azure
+theme:
+  name: material
+  features:
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Modo Claro
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-night
+        name: Modo Escuro
+  
+nav:
+  - Home do Projeto: index.md
+  - Quem sou eu?: 0_quem_sou_eu.md
+  - 1. O que iremos abordar?: 1_projeto.md
+  - 2. Recursos que iremos usar do Azure: 2_recursos_azure.md
+  - 3. Provisionando Recursos do Azure: 3_provisionando_recursos_azure.md
+  - 4. ETL/ELT: 4_etl_elt.md
+  - 5. Arquitetura de Dados: 5_arquitetura_dados.md
+  - 6. Data Warehouse - Data Lake - Lakehouse: 6_dw_data_lake_lakehouse.md
+  - 7. Arquitetura Medalhão: 7_arquitetura_medalhao.md
+  - 8. CI/CD - Git - GitHub - Azure DevOps: 8_cicd.md
+  - 9. Data Quality - Apresentação de um Framework: 9_data_quality.md
+  - 10. Monitoramento de uma Pipeline no Azure Data Factory: 10_monitoramento_pipeline.md  
+  - 11. Gerando a Massa de Dados: 11_gerar_massa_dados.md      
+  - 12. Carga de Dados no SQL Server Camada Relacional: 12_carga_sql_server_relacional.md    
+  - 13. Carga de Dados no SQL Server Camada Multidimensional: 13_carga_sql_server_multidimensional.md    
+  - 14. Onde encontro os arquivos?: 14_arquivos.md      
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
