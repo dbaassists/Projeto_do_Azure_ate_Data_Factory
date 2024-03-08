@@ -1,8 +1,8 @@
 # Projeto BI com Azure e seus componentes
 
-### 13 - Notebook Carga de Dados no Axure SQL Server
+### 14 - Notebook Carga de Dados no Axure SQL Server
 
-### SEQ-13.1 - Definindo as Bibliotecas
+### SEQ-14.1 - Definindo as Bibliotecas
 
 Selecionado quais bibliotecas serão usadas.
 
@@ -12,7 +12,7 @@ from datetime import date, timedelta
 import pyodbc
 ```
 
-### SEQ-13.2 - Instalação Biblioteca pyodbc
+### SEQ-14.2 - Instalação Biblioteca pyodbc
 
 Selecionado quais bibliotecas serão usadas.
 
@@ -20,7 +20,7 @@ Selecionado quais bibliotecas serão usadas.
 pip install pyodbc
 ```
 
-### SEQ-13.3 - Importação Arquivo de Configuração no GitHub
+### SEQ-14.3 - Importação Arquivo de Configuração no GitHub
 
 Processo de busca das credenciais de acesso ao Azure SQL Database armazenadas no GitHub.
 
@@ -33,7 +33,7 @@ username = dfjson['Config']['username']
 password = dfjson['Config']['password']
 ```
 
-### SEQ-13.4 - Instalação do Driver ODBC Driver on Azure Databricks cluster
+### SEQ-14.4 - Instalação do Driver ODBC Driver on Azure Databricks cluster
 
 Driver a ser instalado.
 
@@ -45,7 +45,7 @@ sudo apt-get update
 sudo ACCEPT_EULA=Y apt-get -q -y install msodbcsql17
 ```
 
-### SEQ-13.5 - Limpeza das Tabelas do Azure SQL Database
+### SEQ-14.5 - Limpeza das Tabelas do Azure SQL Database
 
 ``` {.py3 title="Limpeza das Tabelas do Azure SQL Database" linenums=1}
 cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=srv-db-treinamentosql.database.windows.net;port=1433;DATABASE=srv-db-treinamentosql;UID='+username+';PWD='+ password)
@@ -74,7 +74,7 @@ for tabela in lista_tabela:
 cnxn.close()    
 ```
 
-### SEQ-13.6 - Carga de Clientes (dw.Dim_Cliente)
+### SEQ-14.6 - Carga de Clientes (dw.Dim_Cliente)
 
 ``` {.py3 title="Carga de Clientes (dw.Dim_Cliente)" linenums=1}
 
@@ -96,7 +96,7 @@ df.write \
     .save()
 ```
 
-### SEQ-13.7 - Carga de Produtos (dw.Dim_Produto)
+### SEQ-14.7 - Carga de Produtos (dw.Dim_Produto)
 
 ``` {.py3 title="Carga de Produtos (dw.Dim_Produto)" linenums=1}
 
@@ -118,7 +118,7 @@ df.write \
     .save()
 ```
 
-### SEQ-13.8 - Carga de Categoria de Forma de Pagamento (gold.dim_forma_pagamento)
+### SEQ-14.8 - Carga de Categoria de Forma de Pagamento (gold.dim_forma_pagamento)
 
 ``` {.py3 title="Carga de Categoria de Forma de Pagamento (gold.dim_forma_pagamento)" linenums=1}
 
@@ -141,7 +141,7 @@ df.write \
 ```
 
 
-### SEQ-13.9 - Carga de Tempo (gold.dim_tempo)
+### SEQ-14.9 - Carga de Tempo (gold.dim_tempo)
 
 Selecionado quais bibliotecas serão usadas.
 
@@ -165,7 +165,7 @@ df.write \
     .save()
 ```
 
-### SEQ-13.10 - Carga de Formas de Loja (dw.Dim_loja)
+### SEQ-14.10 - Carga de Formas de Loja (dw.Dim_loja)
 
 Selecionado quais bibliotecas serão usadas.
 
@@ -190,7 +190,7 @@ df.write \
 
 ```
 
-### SEQ-13.8 - Carga de Vendas (dw.Fato_Venda)
+### SEQ-14.8 - Carga de Vendas (dw.Fato_Venda)
 
 Selecionado quais bibliotecas serão usadas.
 

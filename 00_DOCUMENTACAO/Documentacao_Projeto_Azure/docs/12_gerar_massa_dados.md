@@ -1,8 +1,8 @@
 # Projeto BI com Azure e seus componentes
 
-### 11 - Notebook Externo
+### 12 - Notebook Externo
 
-### SEQ-11.1 - Definindo as Bibliotecas
+### SEQ-12.1 - Definindo as Bibliotecas
 
 Selecionado quais bibliotecas serão usadas.
 
@@ -16,7 +16,7 @@ from datetime import date
 import random
 ```
 
-### SEQ-11.2 - Massa de Dados Fakes de Pessoas
+### SEQ-12.2 - Massa de Dados Fakes de Pessoas
 
 ```{.py3 title="Criação Massa de Dados Fakes de Pessoas" linenums=1}
 
@@ -59,7 +59,7 @@ print('02 (FIM) - PROCESSO DE GERAÇÃO DE DADOS DE PESSOAS FAKE')
 
 ```
 
-### SEQ-11.3 - Massa de Dados de Produtos
+### SEQ-12.3 - Massa de Dados de Produtos
 
 ```{.py3 title="Criação Dataframe de Produtos" linenums=1}
 
@@ -221,7 +221,7 @@ print('03.2 (FIM) - GERAÇÃO DE DADOS DE PRODUTOS')
 print('03 (INICIO) - PROCESSO DE GERAÇÃO DE DADOS DE PRODUTOS E CATEGORIAS')
 ```
 
-### SEQ-11.4 - Massa de Dados de Cliente
+### SEQ-12.4 - Massa de Dados de Cliente
 
 ```{.py3 title="Criação Dataframe de Clientes" linenums=1}
 
@@ -265,7 +265,7 @@ print('04 (FIM) - PROCESSO GERAÇÃO DE DADOS DE CLIENTES')
 
 ```
 
-### SEQ-11.5 - Massa de Dados de Vendedor
+### SEQ-12.5 - Massa de Dados de Vendedor
 
 ```{.py3 title="Criação Dataframe de Vendedores" linenums=1}
 
@@ -305,7 +305,7 @@ print('05 (FIM) - PROCESSO GERAÇÃO DE DADOS DE VENDEDORES')
 ```
 
 
-### SEQ-11.6 - Massa de Dados de Forma de Pagamento
+### SEQ-12.6 - Massa de Dados de Forma de Pagamento
 
 ```{.py3 title="Criação Dataframe de Forma de Pagamento" linenums=1}
 
@@ -329,7 +329,7 @@ print('06 (FIM) - PROCESSO GERAÇÃO DE DADOS DE FORMA DE PAGAMENTO')
 ```
 
 
-### SEQ-11.7 - Massa de Dados de Loja
+### SEQ-12.7 - Massa de Dados de Loja
 
 ```{.py3 title="Criação Dataframe de Loja" linenums=1}
 
@@ -407,7 +407,7 @@ dfLojaFinal = dfLojaFinal.reset_index()
 print('07 (FIM) - PROCESSO GERAÇÃO DE DADOS DE LOJAS')
 ```
 
-### SEQ-11.8 - Massa de Dados de Venda
+### SEQ-12.8 - Massa de Dados de Venda
 
 ```{.py3 title="Criação Dataframe de Venda" linenums=1}
 

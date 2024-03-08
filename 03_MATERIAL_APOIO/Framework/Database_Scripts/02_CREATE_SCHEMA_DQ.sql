@@ -1,0 +1,4 @@
+USE [DQ]
+GO
+CREATE SCHEMA [dq] AUTHORIZATION [usr_dq]
+GO

@@ -4,7 +4,7 @@ Essa etapa é responsável por explicar os recursos que serão usados durante o 
 
 ![Image](./imagens/12_estrutura_projeto.png)
 
-### SEQ-3.1 - Recursos que serão usados da Cloud Azure
+### 2.1 - Recursos que serão usados da Cloud Azure
 
 Pré-Requisito para o andamnento do projeto.
 
@@ -18,9 +18,7 @@ Pré-Requisito para o andamnento do projeto.
 | <img src='../imagens/16_akv.png' width='100' height='100'> | Azure Key Vault | akv-workshop-azure | O Azure Key Vault é um serviço de gerenciamento de segredos e chaves na Microsoft Azure, projetado para proteger, armazenar e controlar o acesso a chaves de criptografia, senhas, certificados e outros segredos confidenciais usados por aplicativos e serviços na nuvem. |
 | <img src='../imagens/20_databricks.png' width='100' height='100'> | Azure Databricks | adb-workshop-azure | O Azure Databricks é um serviço de análise unificada baseado na nuvem que combina o poder do Apache Spark com uma plataforma de colaboração e integração. Desenvolvido em parceria com a Databricks e a Microsoft, o Azure Databricks permite que equipes de análise e engenharia de dados colaborem em projetos de big data e análise de dados de forma eficiente e escalável. |
 
-
-### SEQ-3.1 - Recursos Extras
-
+### 2.2 - Recursos Extras
 
 | Recurso | Recurso | Nome do Recurso | Descrição |
 | ------ |  ------ |  ------ |  ------ |
