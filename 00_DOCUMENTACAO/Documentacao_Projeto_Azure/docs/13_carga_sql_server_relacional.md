@@ -1,8 +1,8 @@
 # Projeto BI com Azure e seus componentes
 
-### 12 - Notebook Carga de Dados no Axure SQL Server
+### 13 - Notebook Carga de Dados no Axure SQL Server
 
-### SEQ-12.1 - Definindo as Bibliotecas
+### SEQ-13.1 - Definindo as Bibliotecas
 
 Selecionado quais bibliotecas serão usadas.
 
@@ -19,7 +19,7 @@ password = 'Tr&in@M&nT0SQL2024!'
 driver = 'SQL Server'
 ```
 
-### SEQ-12.2 - Carga de Clientes
+### SEQ-13.2 - Carga de Clientes
 
 ``` {.py3 title="Carga de Clientes" linenums=1}
 
@@ -72,7 +72,7 @@ with pyodbc.connect('DRIVER={'+driver+'};SERVER='+server+';DATABASE='+database+'
 print('01 (FIM) - CARGA DE DADOS DE CLIENTES')
 ```
 
-### SEQ-12.3 - Carga de Vendedores
+### SEQ-13.3 - Carga de Vendedores
 
 ``` {.py3 title="Carga de Vendedores" linenums=1}
 
@@ -107,7 +107,7 @@ print('02 (FIM) - CARGA DE DADOS DE VENDEDORES')
 
 ```
 
-### SEQ-12.4 - Carga de Lojas
+### SEQ-13.4 - Carga de Lojas
 
 ``` {.py3 title="Carga de Lojas" linenums=1}
 
@@ -149,7 +149,7 @@ print('03 (FIM) - CARGA DE DADOS DE LOJAS')
 
 ```
 
-### SEQ-12.5 - Carga de Categoria de Produtos
+### SEQ-13.5 - Carga de Categoria de Produtos
 
 ``` {.py3 title="Carga de Categoria de Produtos" linenums=1}
 
@@ -188,7 +188,7 @@ print('04 (FIM) - CARGA DE DADOS DE CATEGORIA PRODUTOS')
 ```
 
 
-### SEQ-12.6 - Carga de Produtos
+### SEQ-13.6 - Carga de Produtos
 
 Selecionado quais bibliotecas serão usadas.
 
@@ -225,7 +225,7 @@ print('05 (FIM) - CARGA DE DADOS DE PRODUTOS')
 
 ```
 
-### SEQ-12.7 - Carga de Formas de Pagamento
+### SEQ-13.7 - Carga de Formas de Pagamento
 
 Selecionado quais bibliotecas serão usadas.
 
@@ -262,7 +262,7 @@ print('06 (FIM) - CARGA DE DADOS DE FORMA PAGAMENTP')
 
 ```
 
-### SEQ-12.8 - Carga de Vendas
+### SEQ-13.8 - Carga de Vendas
 
 Selecionado quais bibliotecas serão usadas.
 
@@ -320,7 +320,7 @@ print('07 (FIM) - CARGA DE DADOS DE VENDAS')
 
 ```
 
-### SEQ-12.9 - Carga de Itens de Venda
+### SEQ-13.9 - Carga de Itens de Venda
 
 Selecionado quais bibliotecas serão usadas.
 
@@ -365,7 +365,7 @@ print('08 (FIM) - CARGA DE DADOS DE ITEM VENDA')
 
 ```
 
-### SEQ-12.10 - Carga de Tempo
+### SEQ-13.10 - Carga de Tempo
 
 Selecionado quais bibliotecas serão usadas.
 
