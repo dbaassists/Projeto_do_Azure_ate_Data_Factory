@@ -41,3 +41,5 @@ E por último, precisamos ter um processo monitoramento e garantir a qualidade d
 Como vamos fazer isso tudo acontecer?
 
 Vem com a gente!
+
+Gabriel Quintella
