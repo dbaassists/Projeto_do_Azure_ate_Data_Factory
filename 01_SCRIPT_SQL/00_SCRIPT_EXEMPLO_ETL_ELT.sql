@@ -1,3 +1,9 @@
+/*
+Autor: Gabriel Quintella
+Script público que será usado no treinamento de BI com Azure
+Data: 2024-03-09
+*/
+
 USE [master]
 GO
 ALTER DATABASE [ADF_UDEMY] SET  SINGLE_USER WITH ROLLBACK IMMEDIATE

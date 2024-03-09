@@ -1,3 +1,9 @@
+/*
+Autor: Gabriel Quintella
+Script público que será usado no treinamento de BI com Azure
+Data: 2024-03-09
+*/
+
 DROP TABLE IF EXISTS dbo.TB_CANDIDATO
 GO
 CREATE TABLE dbo.TB_CANDIDATO

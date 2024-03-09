@@ -1,3 +1,9 @@
+/*
+Autor: Gabriel Quintella
+Script público que será usado no treinamento de BI com Azure
+Data: 2024-03-09
+*/
+
 -- CRIAÇAO DO BANCO DE DADOS MONITORAMENTO
 CREATE DATABASE MONITORAMENTO
 GO
