@@ -28,6 +28,7 @@ nav:
   - 8. Segurança: 8_seguranca.md
   - 9. CI/CD - Git - GitHub - Azure DevOps: 9_cicd.md
   - 10. Data Quality - Apresentação de um Framework: 10_data_quality.md
+  - 10.1 Data Quality - Framework: 10_1_data_quality.md
   - 11. Monitoramento e Parametrização de uma Pipeline no Azure Data Factory: 11_monitoramento_parametrizacao_pipeline.md  
   - 12. Gerando a Massa de Dados: 12_gerar_massa_dados.md      
   - 13. Carga de Dados no SQL Server Camada Relacional: 13_carga_sql_server_relacional.md    
