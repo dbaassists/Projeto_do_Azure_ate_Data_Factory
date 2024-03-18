@@ -4,7 +4,7 @@
 
 Este Workshop tem como objetivo explorar todas as etapas do fluxo de dados de uma empresa, desde a sua origem até o destino final, utilizando uma esteira de dados no Azure de maneira abrangente e integrada.
 
-![Image](./00_DOCUMENTACAO/Documentacao_Projeto_Azure/docs/imagens/00_projeto.png)
+![Image](./00_DOCUMENTACAO/Documentacao_Projeto_Azure/docs/imagens/01_arquitetura_projeto.png)
 
 Bem, amigo, caso tenha gostado da proposta, basta preencher o formulário abaixo para confirmar sua inscrição.
 
