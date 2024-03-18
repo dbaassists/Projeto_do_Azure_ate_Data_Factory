@@ -1,14 +1,14 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
 ### 1 - Como faremos isso acontecer?
 
 Com base em projetos trabalhados, irei focar nessa stack do Azure.
 
-Sob um olha marcro:
+Sob um olha macro:
 
 ![Image](./imagens/12_estrutura_projeto.png)
 
-Mergulhando em seu funcionamento ficaria da seguinte forma:
+Mergulhando em seu funcionamento, o fluxo será o seguinte:
 
 ![Image](./imagens/01_arquitetura_projeto.png)
 
@@ -29,6 +29,7 @@ Para alcançar o objetivo final do workshop, abordaremos os seguintes assuntos:
 13 - Aplicar Data Quality em um projeto de dados, podendo assim conhecer de perto seus benefícios e como ele pode ajudar no dia a dia das empresas; <br>
 14 - Trabalhar com o Azure Key Vault para garantir conceitos de segurança; <br>
 15 - Explorar um projeto de ponta a ponta. <br>
+16 - Além de tudo isso, estarei trazendo experiências de projeto anteriores, abordando principalmente falhas que cometi para que você não faça o mesmo. <br>
 
 Após abordar a parte conceitual do nosso workshow, vamos realizar uma exploração do ambiente de cloud da Microsoft, o famoso Azure!
 
@@ -40,7 +41,7 @@ E para isso ocorrer vamos precisar seguir os seguintes passos:
 | SEQ-02 | Conhecer o Ecosistema |  |
 | SEQ-03 | Provisionar os recursos |  |
 
-O passo seguinte será realizar o aprofundamento nesses recursos criados para poder entender o beneficio de cada um deles.
+O passo seguinte será realizar o aprofundamento nesses recursos criados para poder entender por que estamos usando, abordar o funcionamento e entender o beneficio de cada um deles dentro do projeto.
 
 |Sequência|Objeto|Detalhamento
 |---|---|---|

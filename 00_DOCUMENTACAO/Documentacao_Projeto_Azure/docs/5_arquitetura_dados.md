@@ -1,6 +1,6 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
-## 5 - Arquitetura
+### 5 - Arquitetura
 
 E quando entrarmos no assunto arquitetura de dados, o que podemos esperar?
 

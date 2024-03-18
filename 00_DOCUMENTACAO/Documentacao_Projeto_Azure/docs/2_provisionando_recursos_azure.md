@@ -1,4 +1,4 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
 Essa etapa é responsável por explicar os recursos que serão usados durante o treinamento.
 

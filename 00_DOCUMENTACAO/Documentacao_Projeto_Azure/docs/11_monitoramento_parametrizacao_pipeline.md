@@ -1,4 +1,4 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
 ### 11 - Monitoramento
 
@@ -6,7 +6,7 @@
 
 Nessa etapa irei apresentar para você como que conseguimos monitorar a execução de uma pipeline no Azure Data Factoty além de criarmos nosso próprio monitoramento. 
 
-Podendo gerar relatórios de melhorias, focar maior atenção para os processos que estão apresentando maior incidÊncia de falhas.
+Podendo gerar relatórios de melhorias, focar atenção para os processos que estão apresentando maior incidÊncia de falhas e até naqueles processos com alto tempo de processamento.
 
 ### SEQ-11.2 - Parametrização
 

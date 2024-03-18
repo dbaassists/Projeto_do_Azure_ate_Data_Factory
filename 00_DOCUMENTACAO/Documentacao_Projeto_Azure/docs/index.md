@@ -1,50 +1,54 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
-<center><img src="../imagens/11_logo.jpg" width="180" height="180"></center>
+## Apresentação do Workshop
 
-## Apresentação do Projeto
+Este Workshop tem como objetivo explorar todas as etapas do fluxo de dados de uma empresa, desde a sua origem até o destino final, utilizando uma esteira de dados no Azure de maneira abrangente e integrada.
 
-Este projeto tem como objetivo explorar todas as etapas do fluxo de dados de uma empresa, desde a sua origem até o destino final, utilizando uma esteira de dados no Azure de maneira abrangente e integrada.
+![Image](./imagens/01_arquitetura_projeto.png)
 
-![minipic](./imagens/01_arquitetura_projeto.png)
+Vou explicar o contexto do projeto que será desenvolvido durante o Workshop. 
 
-Observou? Analisou? Entendeu?
+Primeiro ponto:
 
-Vou contar então o que o cliente pediu no ato da assinatura do contrato.
+* 01 - Os dados da minha empresa estão disponíveis em um banco de dados OnPremise;
 
-* 1 - Os dados da minha empresa estão disponíveis em um banco de dados;
+Segundo ponto:
 
-Ponto que precisa ser esclarecido: 
+* 02 - Esses dados deverão ser extraídos do sistema de forma diária no e armazenados em algum lugar;
 
-** Esse banco é OnPremise ou em alguma cloud?
+* 03 - Os dados são divididos em duas categorias: Dados mestres (dados de cliente, loja, vendedor, etc) e dados transacionais (dados de venda);
 
-O segundo ponto que ele destacou:
+* 04 - Os dados mestres, devem ser extraídos todos os dias em sua totalidade, ou seja, full;
 
-* 2 - Esses dados deverão ser extraídos do sistema de forma diária no formato delta e armazenados em algum lugar. Dados mestre extrai tudo e dados transacionais no formato delta;
+* 05 - Já os dados transacionais, devem ser extraídos todos os dias em formato delta;
 
-Hunnnnn, eu pensei em persistir após a extração em uma camada Landing para posterior processamento, o que acha?
+Terceiro ponto:
 
-Como o volume de dados da empresa é alto, pensei em usar o databricks para processar utilizando a arquitetura medalhão! 
+* 06 - Os dados devem ser persistidos na camada Landing Zone em formato parquet;
 
-Com isso pensei assim no fluxo:
+Quarto ponto
 
-* 4 - Após a extração, os dados são processados e armazenados na camada bronze sem nenhum tratamento de dados. A estrutura das tabelas da camada bronze deverão ser identicas a dos arquivos;
+* 07 - Após a extração, os dados serão processados levando em consideração a arquitetura medalhão. 
 
-* 5 - Na camada silver, os dados deverão passar por transformações/tratamentos que são descritos mais a frente;
+* 08 - Na camada bronze os dados não deverão sofrer nenhum tratamento de dados;
 
-* 6 - Na camada gold, os dados devem estar modelados no padrão multidimensional, criando tabelas de dimensões e fato;
+* 09 - Na camada silver, os dados deverão passar por transformações/tratamentos;
 
-Pensando agora no modus operandi da nossa equipe estaremos usando uma esteira para controlar todos os desenvolvimentos e subidas para produção.
+* 10 - Na camada gold, os dados devem estar modelados no padrão multidimensional, ou seja, em formato de tabelas de dimensões e fato;
 
-* 7 - Vamos abordar uso o GitHub e do Azure DevOps;
+* 11 - Após o processamento, os arquivos precisam ser movidos/arquivados para algum lugar;
 
-Precisamos pensar também na melhor forma para armazenar as credenciais de acesso aos recursos.
+Quinto ponto
 
-* 8 - Para esse ponto pensei em trabalhar com o Azure Key Vault;
+* 12 - O desenvolvimento deve contar com uma esteira DevOps. Pensando nisso, iremos avaliar o uso do GitHub ou o Azure DevOps;
 
-E por último, precisamos ter um processo monitoramento e garantir a qualidade dos dados.
+Sexto ponto
 
-* 9 - Vamos usar técnicas de Data Quality e criar monitoramentos para nossas pipelines.
+* 13 - As credenciais de acesso aos recursos não podem estar disponíveis. Para atender esse ponto, estaremos usando o Azure Key Vault;
+
+Sétimo ponto
+
+* 14 - A qualidade dos dados deve ser mantida. E para atender esse pondo, vamos usar técnicas de Data Quality e criar monitoramentos para nossas pipelines.
 
 Como vamos fazer isso tudo acontecer?
 

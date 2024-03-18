@@ -1,6 +1,6 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
-## 4 - Falando um pouco sobre ETL e ELT
+### 4 - Falando um pouco sobre ETL e ELT
 
 Outro ponto que merece sua atenção é o assunto relacionado a ETL e ETL.
 
