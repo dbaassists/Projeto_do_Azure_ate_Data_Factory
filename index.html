@@ -499,25 +499,6 @@
   
   
     <li class="md-nav__item">
-      <a href="10_1_data_quality/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    10.1 Data Quality - Framework
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    <li class="md-nav__item">
       <a href="11_monitoramento_parametrizacao_pipeline/" class="md-nav__link">
         
   
@@ -575,30 +556,11 @@
   
   
     <li class="md-nav__item">
-      <a href="14_carga_sql_server_multidimensional/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    14. Carga de Dados no SQL Server Camada Multidimensional
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    <li class="md-nav__item">
       <a href="15_arquivos/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    15. Onde encontro os arquivos?
+    14. Onde encontro os arquivos?
   </span>
   
 
@@ -617,7 +579,7 @@
         
   
   <span class="md-ellipsis">
-    16. Formulário de Inscrição
+    15. Formulário de Inscrição
   </span>
   
 
@@ -678,43 +640,60 @@
 <p><center><img src="../imagens/11_logo.jpg" width="180" height="180"></center></p>
 <h2 id="apresentacao-do-projeto">Apresentação do Projeto</h2>
 <p>Este projeto tem como objetivo explorar todas as etapas do fluxo de dados de uma empresa, desde a sua origem até o destino final, utilizando uma esteira de dados no Azure de maneira abrangente e integrada.</p>
-<p><img alt="minipic" src="imagens/01_arquitetura_projeto.png" /></p>
-<p>Observou? Analisou? Entendeu?</p>
+<p><img alt="Image" src="imagens/01_arquitetura_projeto.png" /></p>
 <p>Vou contar então o que o cliente pediu no ato da assinatura do contrato.</p>
+<p>Primeiro ponto:</p>
 <ul>
-<li>1 - Os dados da minha empresa estão disponíveis em um banco de dados;</li>
+<li>01 - Os dados da minha empresa estão disponíveis em um banco de dados OnPremise;</li>
 </ul>
-<p>Ponto que precisa ser esclarecido: </p>
-<p>** Esse banco é OnPremise ou em alguma cloud?</p>
-<p>O segundo ponto que ele destacou:</p>
-<ul>
-<li>2 - Esses dados deverão ser extraídos do sistema de forma diária no formato delta e armazenados em algum lugar. Dados mestre extrai tudo e dados transacionais no formato delta;</li>
-</ul>
-<p>Hunnnnn, eu pensei em persistir após a extração em uma camada Landing para posterior processamento, o que acha?</p>
-<p>Como o volume de dados da empresa é alto, pensei em usar o databricks para processar utilizando a arquitetura medalhão! </p>
-<p>Com isso pensei assim no fluxo:</p>
+<p>Segundo ponto:</p>
 <ul>
 <li>
-<p>4 - Após a extração, os dados são processados e armazenados na camada bronze sem nenhum tratamento de dados. A estrutura das tabelas da camada bronze deverão ser identicas a dos arquivos;</p>
+<p>02 - Esses dados deverão ser extraídos do sistema de forma diária no e armazenados em algum lugar;</p>
 </li>
 <li>
-<p>5 - Na camada silver, os dados deverão passar por transformações/tratamentos que são descritos mais a frente;</p>
+<p>03 - Os dados são divididos em duas categorias: Dados mestres (dados de cliente, loja, vendedor, etc) e dados transacionais (dados de venda);</p>
 </li>
 <li>
-<p>6 - Na camada gold, os dados devem estar modelados no padrão multidimensional, criando tabelas de dimensões e fato;</p>
+<p>04 - Os dados mestres, devem ser extraídos todos os dias em sua totalidade, ou seja, full;</p>
+</li>
+<li>
+<p>05 - Já os dados transacionais, devem ser extraídos todos os dias em formato delta;</p>
 </li>
 </ul>
-<p>Pensando agora no modus operandi da nossa equipe estaremos usando uma esteira para controlar todos os desenvolvimentos e subidas para produção.</p>
+<p>Terceiro ponto:</p>
 <ul>
-<li>7 - Vamos abordar uso o GitHub e do Azure DevOps;</li>
+<li>06 - Os dados devem ser persistidos na camada Landing Zone em formato parquet;</li>
 </ul>
-<p>Precisamos pensar também na melhor forma para armazenar as credenciais de acesso aos recursos.</p>
+<p>Quarto ponto</p>
 <ul>
-<li>8 - Para esse ponto pensei em trabalhar com o Azure Key Vault;</li>
+<li>
+<p>07 - Após a extração, os dados serão processados levando em consideração a arquitetura medalhão. </p>
+</li>
+<li>
+<p>08 - Na camada bronze os dados não deverão sofrer nenhum tratamento de dados;</p>
+</li>
+<li>
+<p>09 - Na camada silver, os dados deverão passar por transformações/tratamentos;</p>
+</li>
+<li>
+<p>10 - Na camada gold, os dados devem estar modelados no padrão multidimensional, ou seja, em formato de tabelas de dimensões e fato;</p>
+</li>
+<li>
+<p>11 - Após o processamento, os arquivos precisam ser movidos/arquivados para algum lugar;</p>
+</li>
 </ul>
-<p>E por último, precisamos ter um processo monitoramento e garantir a qualidade dos dados.</p>
+<p>Quinto ponto</p>
 <ul>
-<li>9 - Vamos usar técnicas de Data Quality e criar monitoramentos para nossas pipelines.</li>
+<li>12 - O desenvolvimento deve contar com uma esteira DevOps. Pensando nisso, iremos avaliar o uso do GitHub ou o Azure DevOps;</li>
+</ul>
+<p>Sexto ponto</p>
+<ul>
+<li>13 - As credenciais de acesso aos recursos não podem estar disponíveis. Para atender esse ponto, estaremos usando o Azure Key Vault;</li>
+</ul>
+<p>Sétimo ponto</p>
+<ul>
+<li>14 - A qualidade dos dados deve ser mantida. E para atender esse pondo, vamos usar técnicas de Data Quality e criar monitoramentos para nossas pipelines.</li>
 </ul>
 <p>Como vamos fazer isso tudo acontecer?</p>
 <p>Vem com a gente!</p>
