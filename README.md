@@ -37,11 +37,11 @@ No workshop, abordaremos os seguintes assuntos:
 15 - Explorar um projeto de ponta a ponta. <br>
 16 - Além de tudo isso, estarei trazendo experiências de projeto anteriores, abordando principalmente falhas que cometi para que você não faça o mesmo. <br>
 
-Proveito para deixar meus contatos.
+Aproveito para deixar meus contatos.
 
 E-mail: dbaassists@gmail.com <br>
 [Intagram](https://www.instagram.com/dbaassists/) - https://www.instagram.com/dbaassists/ <br>
 [Twitter](https://twitter.com/dbaassists) - https://twitter.com/dbaassists <br>
 [YouTube](https://www.youtube.com/@quintellao/featured) - https://www.youtube.com/@quintellao/featured <br>
 [Blog DbaAssists](https://www.dbaassists.com.br/) - https://www.dbaassists.com.br/ <br>
- [GitHub](https://github.com/dbaassists) - https://github.com/dbaassists <br>
+[GitHub](https://github.com/dbaassists) - https://github.com/dbaassists <br>
