@@ -35,6 +35,7 @@ No workshop, abordaremos os seguintes assuntos:
 13 - Aplicar Data Quality em um projeto de dados, podendo assim conhecer de perto seus benefícios e como ele pode ajudar no dia a dia das empresas; <br>
 14 - Trabalhar com o Azure Key Vault para garantir conceitos de segurança; <br>
 15 - Explorar um projeto de ponta a ponta. <br>
+16 - Além de tudo isso, estarei trazendo experiências de projeto anteriores, abordando principalmente falhas que cometi para que você não faça o mesmo. <br>
 
 Proveito para deixar meus contatos.
 
