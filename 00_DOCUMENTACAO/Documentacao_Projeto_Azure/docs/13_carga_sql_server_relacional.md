@@ -1,6 +1,8 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
 ### 13 - Notebook Carga de Dados no Axure SQL Server
+
+Após gerar os dados, estarei usando esse algoritmo para carregar os dados no SQL Server!
 
 ### SEQ-13.1 - Definindo as Bibliotecas
 

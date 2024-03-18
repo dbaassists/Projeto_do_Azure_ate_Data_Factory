@@ -1,4 +1,4 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
 ### 10.1 - Data Quality - Como que funciona?
 

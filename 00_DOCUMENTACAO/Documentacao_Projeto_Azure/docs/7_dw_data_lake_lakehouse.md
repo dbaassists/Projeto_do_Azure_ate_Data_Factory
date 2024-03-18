@@ -1,4 +1,6 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
+
+### 7 - O que conseguiremos compreender depois desse capítulo?
 
 Entramos nesse momento em uma das parte mais importantes do nosso Workshop.
 
@@ -13,8 +15,6 @@ Vamos entender de forma macro alguns conceitos:
 * Uma Delta Table é uma tabela de dados distribuída que utiliza o formato Delta Lake, um formato de armazenamento de dados otimizado para análises de big data em ambientes de nuvem. Ela combina as características de um Data Lake com os benefícios de um Data Warehouse, oferecendo a capacidade de armazenar dados brutos e processados em um único local.
 
 * Um Data Lakehouse é uma arquitetura de dados que combina os conceitos de Data Lake e Data Warehouse em um único ambiente. Ele integra as capacidades de armazenamento flexível e escalável do Data Lake com a capacidade de consulta e análise estruturada do Data Warehouse. O Data Lakehouse é projetado para oferecer flexibilidade, escalabilidade e desempenho para análises de big data, permitindo que as organizações processem e analisem grandes volumes de dados de forma eficiente e confiável.
-
-## 7 - O que conseguiremos compreender depois desse capítulo?
 
 <br>
 

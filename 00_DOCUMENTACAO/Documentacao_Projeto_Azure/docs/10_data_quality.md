@@ -1,4 +1,4 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
 ### 10 - Data Quality
 
@@ -11,6 +11,8 @@ As práticas de Data Quality envolvem a identificação, avaliação e correçã
 Diante das explicações acima, Data Quality, ou Qualidade de Dados, refere-se à medida em que um conjunto de dados atende aos requisitos e expectativas estabelecidos para sua utilização. Em outras palavras, é a capacidade de um conjunto de dados ser preciso, consistente, completo, relevante e atualizado para atender às necessidades de negócios e análises.
 
 Em nosso Workshop estaremos abordando como que funciona na prática a sua aplicação.
+
+<font color='red'>Você terá acesso ao código que iremos usar e aplicar em sua empresa.</font>
 
 ![Image](./imagens/31_dq.png)
 

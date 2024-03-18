@@ -1,6 +1,10 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
 ### 12 - Notebook Externo
+
+Esse ponto é um plus! 
+
+Usei esse algoritmo para gerar os dados que vamos trabalhar no workshop! 
 
 ### SEQ-12.1 - Definindo as Bibliotecas
 

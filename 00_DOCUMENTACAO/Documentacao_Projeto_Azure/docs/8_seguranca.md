@@ -1,6 +1,6 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
-## 8 - Segurança em uma Pipeline de Dados
+### 8 - Segurança em uma Pipeline de Dados
 
 Como podemos garantir as melhores práticas de segurança em nossa arquitetura de dados?
 

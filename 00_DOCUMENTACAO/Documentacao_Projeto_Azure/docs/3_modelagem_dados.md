@@ -1,8 +1,8 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
-## 3 - Falando um pouco sobre Modelagem Dimensional ou Multidimensional
+### 3 - Falando um pouco sobre Modelagem Dimensional ou Multidimensional
 
-Nessa etapa do treinamneto, iremos abordar conceitos valiosíssimos no que diz respeito a mmodelagem de dados.
+Nessa etapa do treinamneto, iremos abordar conceitos valiosíssimos no que diz respeito a modelagem de dados.
 
 Você que pretende ou já trabalhar em projetos de BI ou Big Data, sabe muito bem que todo projeto possui uma modelagem multidimensional e que isso impacta diretamente na camada de apresentação das informações.
 

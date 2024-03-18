@@ -1,4 +1,4 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
 ### 14 - Notebook Carga de Dados no Axure SQL Server
 

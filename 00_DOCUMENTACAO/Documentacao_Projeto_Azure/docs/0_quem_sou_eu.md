@@ -1,4 +1,4 @@
-# Projeto BI com Azure e seus componentes 
+# Workshop BI com Azure e seus componentes 
 
 ### Quem sou eu?
 
@@ -8,25 +8,26 @@ Meu nome é Gabriel Quintella e você pode me chamar de Quintellão caso queira!
 
 Trabalho com dados desde 2005.
 
-Possuo formação em Sistemas de Informação com especialização em Projetos e Bancos de Dados com foco em BI e Bigdata.
+Sou formado em Sistemas de Informação com Especialização em Projetos e Bancos de Dados com foco em BI e Bigdata.
 
-Possuo certicação Itil, Cobit, Microsoft tanto em ambientes OnPrimise e Cloud (Azure), Python e Databricks.
+Durante minha caminhada profissional conquistei as certificações Itil, Cobit, Microsoft tanto em ambientes OnPrimise e Cloud (Azure) além de Python em Databricks.
 
-Além disso trabalho atualmente como Engenheiro de Dados porém já atuei como DBA, Administrador de Dados, Programador SQL como foco em Pl/SQL e TSQL, desenvolvedor de BI e como engenheiro de dados.
+Atualmente trabalho como Engenheiro de Dados e durante minha carreira acumulei as funções de DBA, Administrador de Dados, Programador SQL como foco em Pl/SQL e TSQL e desenvolvedor de BI focado em SQL Server Integration Services.
 
-Possuo experiência em liderança de times de dados e proeficiência em bancos de dados tanto na parte de administração quanto programação, profundos conhecimentos em modelagem de dados relacional e multidimensional.
+Possuo experiência em liderança de times de dados e proeficiência em bancos de dados tanto na parte de administração quanto desenvolvimento e profundos conhecimentos em modelagem de dados relacional e multidimensional.
 
-Quando falamos em ferramentas de integração, trabalehi por muitos anos com Pentaho, SQL Server Integration Service e Data Factory.
+Quando falamos em ferramentas de integração, trabalhei por muitos anos com Pentaho, SQL Server Integration Service e atualmento meu foco é com Azure Data Factory.
 
 E também possuo conhecimento em Python e PySpark.
 
 Deixo minhas redes sociais para poder acompanhar meus trabalhos!
 
-Instagram - https://www.instagram.com/dbaassists/
-Twiter - https://twitter.com/dbaassists
-YouTube - https://www.youtube.com/@quintellao/featured
-Blog - https://www.dbaassists.com.br/
-GitHub - https://github.com/dbaassists
+E-mail: dbaassists@gmail.com <br>
+[Intagram](https://www.instagram.com/dbaassists/) - https://www.instagram.com/dbaassists/ <br>
+[Twitter](https://twitter.com/dbaassists) - https://twitter.com/dbaassists <br>
+[YouTube](https://www.youtube.com/@quintellao/featured) - https://www.youtube.com/@quintellao/featured <br>
+[Blog DbaAssists](https://www.dbaassists.com.br/) - https://www.dbaassists.com.br/ <br>
+ [GitHub](https://github.com/dbaassists) - https://github.com/dbaassists <br>
 
 Grande abraço e fique com Deus!!
 

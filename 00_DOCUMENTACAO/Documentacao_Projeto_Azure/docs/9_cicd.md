@@ -1,6 +1,6 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
-## 9 - Trabalhando com CI/CD
+### 9 - Trabalhando com CI/CD
 
 Quando falamos de CI/CD (Continuous Integration/Continuous Delivery), podemos dizer que para dados é uma prática que visa automatizar e acelerar o processo de desenvolvimento, teste e implantação de pipelines de dados e análises. 
 

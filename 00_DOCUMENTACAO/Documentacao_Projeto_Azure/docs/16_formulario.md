@@ -1,8 +1,8 @@
-# Projeto BI com Azure e seus componentes
+# Workshop BI com Azure e seus componentes
 
 <center><img src="../imagens/11_logo.jpg" width="180" height="180"></center>
 
-### 16 - Formulário de Inscrição
+### 15 - Formulário de Inscrição
 
 Bem, amigo, caso tenha gostado da proposta, basta preencher o formulário abaixo para confirmar sua inscrição.
 
@@ -35,4 +35,4 @@ E-mail: dbaassists@gmail.com <br>
 [Twitter](https://twitter.com/dbaassists) - https://twitter.com/dbaassists <br>
 [YouTube](https://www.youtube.com/@quintellao/featured) - https://www.youtube.com/@quintellao/featured <br>
 [Blog DbaAssists](https://www.dbaassists.com.br/) - https://www.dbaassists.com.br/ <br>
- [GitHub](https://github.com/dbaassists) - https://github.com/dbaassists <br>
+[GitHub](https://github.com/dbaassists) - https://github.com/dbaassists <br>
