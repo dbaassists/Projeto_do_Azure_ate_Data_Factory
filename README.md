@@ -1,8 +1,8 @@
-# Projeto_do_Azure_ate_Data_Factory
+# Workshop BI com Azure e seus componentes
 
-# Apresentação do Projeto 
+### Apresentação
 
-Este projeto tem como objetivo explorar todas as etapas do fluxo de dados de uma empresa, desde a sua origem até o destino final, utilizando uma esteira de dados no Azure de maneira abrangente e integrada.
+Este Workshop tem como objetivo explorar todas as etapas do fluxo de dados de uma empresa, desde a sua origem até o destino final, utilizando uma esteira de dados no Azure de maneira abrangente e integrada.
 
 ![Image](./00_DOCUMENTACAO/Documentacao_Projeto_Azure/docs/imagens/00_projeto.png)
 
@@ -14,7 +14,7 @@ As aulas serão gravadas e estarão disponíveis no YouTube de forma privada!
 
 Todo material do curso ficará disponível no GitHub -> [Material do Workshop](https://github.com/dbaassists/Projeto_do_Azure_ate_Data_Factory)
 
-E a documentação do projeto você encontra aqui -> [Documentação Projeto](https://dbaassists.github.io/Projeto_do_Azure_ate_Data_Factory/)
+E a documentação do projeto que será abordado no Workshop você encontra aqui -> [Documentação Projeto](https://dbaassists.github.io/Projeto_do_Azure_ate_Data_Factory/)
 
 O formulário de inscrição você encontra em -> [Formulário de Inscrição](https://forms.wix.com/f/7168778969481741171)
 
