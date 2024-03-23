@@ -189,10 +189,7 @@ print('04 (FIM) - CARGA DE DADOS DE CATEGORIA PRODUTOS')
 
 ```
 
-
 ### SEQ-13.6 - Carga de Produtos
-
-Selecionado quais bibliotecas serão usadas.
 
 ``` {.py3 title="Carga de Produtos" linenums=1}
 
@@ -229,8 +226,6 @@ print('05 (FIM) - CARGA DE DADOS DE PRODUTOS')
 
 ### SEQ-13.7 - Carga de Formas de Pagamento
 
-Selecionado quais bibliotecas serão usadas.
-
 ``` {.py3 title="Carga de Formas Pagamento" linenums=1}
 
 print('06 (INICIO) - CARGA DE DADOS DE FORMA PAGAMENTO')
@@ -265,8 +260,6 @@ print('06 (FIM) - CARGA DE DADOS DE FORMA PAGAMENTP')
 ```
 
 ### SEQ-13.8 - Carga de Vendas
-
-Selecionado quais bibliotecas serão usadas.
 
 ``` {.py3 title="Carga de Vendas" linenums=1}
 
@@ -324,8 +317,6 @@ print('07 (FIM) - CARGA DE DADOS DE VENDAS')
 
 ### SEQ-13.9 - Carga de Itens de Venda
 
-Selecionado quais bibliotecas serão usadas.
-
 ``` {.py3 title="Carga de Itens de Venda" linenums=1}
 
 
@@ -369,9 +360,7 @@ print('08 (FIM) - CARGA DE DADOS DE ITEM VENDA')
 
 ### SEQ-13.10 - Carga de Tempo
 
-Selecionado quais bibliotecas serão usadas.
-
-``` {.py3 title="Carga de Tempo" linenums=1}
+``` {.py3 title="Gerando dados da dimensão tempo" linenums=1}
 
 print('09 (INICIO) - CARGA DE DADOS DE TEMPO')
 

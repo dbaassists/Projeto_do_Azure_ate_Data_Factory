@@ -4,7 +4,7 @@
 
 Com base em projetos trabalhados, irei focar nessa stack do Azure.
 
-Sob um olha macro:
+Sob um olhar macro:
 
 ![Image](./imagens/12_estrutura_projeto.png)
 
@@ -31,14 +31,14 @@ Para alcançar o objetivo final do workshop, abordaremos os seguintes assuntos:
 15 - Explorar um projeto de ponta a ponta. <br>
 16 - Além de tudo isso, estarei trazendo experiências de projeto anteriores, abordando principalmente falhas que cometi para que você não faça o mesmo. <br>
 
-Após abordar a parte conceitual do nosso workshow, vamos realizar uma exploração do ambiente de cloud da Microsoft, o famoso Azure!
+Após abordar a parte conceitual do nosso workshop, vamos realizar uma exploração do ambiente de cloud da Microsoft, o famoso Azure!
 
 E para isso ocorrer vamos precisar seguir os seguintes passos:
 
 |Sequência|Objeto|Detalhamento
 |---|---|---|
 | SEQ-01 | Criação de Conta no Azure |  |
-| SEQ-02 | Conhecer o Ecosistema |  |
+| SEQ-02 | Conhecer o Ecossistema |  |
 | SEQ-03 | Provisionar os recursos |  |
 
 O passo seguinte será realizar o aprofundamento nesses recursos criados para poder entender por que estamos usando, abordar o funcionamento e entender o beneficio de cada um deles dentro do projeto.

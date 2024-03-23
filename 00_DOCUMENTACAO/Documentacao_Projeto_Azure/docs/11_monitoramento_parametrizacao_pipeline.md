@@ -6,7 +6,7 @@
 
 Nessa etapa irei apresentar para você como que conseguimos monitorar a execução de uma pipeline no Azure Data Factoty além de criarmos nosso próprio monitoramento. 
 
-Podendo gerar relatórios de melhorias, focar atenção para os processos que estão apresentando maior incidÊncia de falhas e até naqueles processos com alto tempo de processamento.
+Podendo gerar relatórios de melhorias, focar atenção para os processos que estão apresentando maior incidência de falhas e até naqueles processos com alto tempo de processamento.
 
 ### SEQ-11.2 - Parametrização
 
