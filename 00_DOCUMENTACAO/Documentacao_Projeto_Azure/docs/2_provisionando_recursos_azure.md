@@ -6,7 +6,7 @@ Essa etapa é responsável por explicar os recursos que serão usados durante o 
 
 ### 2.1 - Recursos que serão usados da Cloud Azure
 
-Pré-Requisito para o andamnento do projeto.
+Pré-Requisito para o andamento do projeto.
 
 | Recurso | Recurso Azure | Nome Recurso Projeto | Descrição |
 | ------ |  ------ |  ------ |  ------ |

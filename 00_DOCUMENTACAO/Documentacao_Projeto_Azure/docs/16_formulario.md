@@ -27,9 +27,9 @@ No workshop, abordaremos os seguintes assuntos:
 15 - Explorar um projeto de ponta a ponta. <br>
 16 - Além de tudo isso, estarei trazendo experiências de projeto anteriores, abordando principalmente falhas que cometi para que você não faça o mesmo. <br>
 
-Para visualizar o o formulário, é ncessário acessar o link [Formulário de Inscrição](https://forms.wix.com/f/7168778969481741171)
+Para visualizar o formulário, é ncessário acessar o link [Formulário de Inscrição](https://forms.wix.com/f/7168778969481741171)
 
-Proveito para deixar meus contatos.
+Aproveito para deixar meus contatos.
 
 E-mail: dbaassists@gmail.com <br>
 [Intagram](https://www.instagram.com/dbaassists/) - https://www.instagram.com/dbaassists/ <br>

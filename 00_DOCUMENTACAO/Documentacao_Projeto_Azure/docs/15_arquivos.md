@@ -4,6 +4,6 @@
 
 ### SEQ-14 - Sessão de Arquivos
 
-Durante o treinamento, todos os arqivos gerados serão disponibilizados para você! 
+Durante o treinamento, todos os arquivos gerados serão disponibilizados para você! 
 
 Essa sessão fica responsável por assumir a função de catálogo. Estaremos construindo ela a medida que o workshop for avançando! 

@@ -14,7 +14,7 @@ Primeiro ponto:
 
 Segundo ponto:
 
-* 02 - Esses dados deverão ser extraídos do sistema de forma diária no e armazenados em algum lugar;
+* 02 - Esses dados deverão ser extraídos do sistema de forma diária e armazenados em algum lugar;
 
 * 03 - Os dados são divididos em duas categorias: Dados mestres (dados de cliente, loja, vendedor, etc) e dados transacionais (dados de venda);
 
@@ -48,7 +48,7 @@ Sexto ponto
 
 Sétimo ponto
 
-* 14 - A qualidade dos dados deve ser mantida. E para atender esse pondo, vamos usar técnicas de Data Quality e criar monitoramentos para nossas pipelines.
+* 14 - A qualidade dos dados deve ser mantida. E para atender esse ponto, vamos usar técnicas de Data Quality e criar monitoramentos para nossas pipelines.
 
 Como vamos fazer isso tudo acontecer?
 

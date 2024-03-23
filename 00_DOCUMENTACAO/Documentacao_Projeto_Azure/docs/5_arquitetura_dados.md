@@ -12,7 +12,7 @@ Vou tentar destacar alguns pontos, ok?
 |---|---|---|
 | 1 | Quais são as suas fases? | ? |
 | 2 | Quando estarei pronto para construir? | ? |
-| 3 | O que ela representar dentro de um projeto de BI e Big Data? | ? |
+| 3 | O que ela representa dentro de um projeto de BI e Big Data? | ? |
 | 4 | Existe diferenças entre o mundo OnPremises e Cloud? | ? |
 | 5 | Quais componentes fazem parte de uma Arquitetura de Dados? | ? |
 
