@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../4_etl_elt/">
+        <link rel="prev" href="../16_formulario/">
       
-      
-        <link rel="next" href="../6_arquitetura_medalhao/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>5. Imersão em Arquitetura de Dados - Workshop BI com Azure</title>
+        <title>16. Lista de Contatos - Workshop BI com Azure</title>
       
     
     
@@ -111,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              5. Imersão em Arquitetura de Dados
+              16. Lista de Contatos
             
           </span>
         </div>
@@ -338,29 +336,9 @@
       
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    5. Imersão em Arquitetura de Dados
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../5_arquitetura_dados/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -369,47 +347,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#5-arquitetura" class="md-nav__link">
-    5 - Arquitetura
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#51-representacao-grafica-de-uma-arquitetura-bi-ou-arquitetura-on-premise" class="md-nav__link">
-    5.1 - Representação Gráfica de uma Arquitetura BI ou Arquitetura On-Premise
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#52-representacao-grafica-de-uma-arquitetura-big-data-ou-modern-data-architecture" class="md-nav__link">
-    5.2 - Representação Gráfica de uma Arquitetura Big Data ou Modern Data Architecture
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -608,9 +545,29 @@
       
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../17_contatos/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    16. Lista de Contatos
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -619,6 +576,40 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#17-contatos-do-workshop" class="md-nav__link">
+    17 - Contatos do Workshop
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seq-17-sessao-de-contatos" class="md-nav__link">
+    SEQ-17 - Sessão de Contatos
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -650,22 +641,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#5-arquitetura" class="md-nav__link">
-    5 - Arquitetura
+  <a href="#17-contatos-do-workshop" class="md-nav__link">
+    17 - Contatos do Workshop
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#51-representacao-grafica-de-uma-arquitetura-bi-ou-arquitetura-on-premise" class="md-nav__link">
-    5.1 - Representação Gráfica de uma Arquitetura BI ou Arquitetura On-Premise
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#52-representacao-grafica-de-uma-arquitetura-big-data-ou-modern-data-architecture" class="md-nav__link">
-    5.2 - Representação Gráfica de uma Arquitetura Big Data ou Modern Data Architecture
+  <a href="#seq-17-sessao-de-contatos" class="md-nav__link">
+    SEQ-17 - Sessão de Contatos
   </a>
   
 </li>
@@ -686,51 +670,272 @@
 
 
 <h1 id="workshop-bi-com-azure-e-seus-componentes">Workshop BI com Azure e seus componentes</h1>
-<h3 id="5-arquitetura">5 - Arquitetura</h3>
-<p>E quando entrarmos no assunto arquitetura de dados, o que podemos esperar?</p>
-<p>Muita coisa, isso eu já posso adiantar pra você!</p>
-<p>Vou tentar destacar alguns pontos, ok?</p>
+<h3 id="17-contatos-do-workshop">17 - Contatos do Workshop</h3>
+<h3 id="seq-17-sessao-de-contatos">SEQ-17 - Sessão de Contatos</h3>
 <table>
 <thead>
 <tr>
-<th>Sequência</th>
-<th>Dúvida</th>
-<th>Resposta</th>
+<th>Nome Completo</th>
+<th>Email</th>
+<th>Linkedin</th>
+<th>GitHub</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td>Quais são as suas fases?</td>
-<td>?</td>
+<td>AMANDA KNAIPP BADARO</td>
+<td>amandakb@gmail.com</td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
 </tr>
 <tr>
-<td>2</td>
-<td>Quando estarei pronto para construir?</td>
-<td>?</td>
+<td>ANDRE</td>
+<td>matiello.andre@hotmail.com</td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
 </tr>
 <tr>
-<td>3</td>
-<td>O que ela representa dentro de um projeto de BI e Big Data?</td>
-<td>?</td>
+<td>ANDRÉ DI BATTISTA</td>
+<td>andrebatt@hotmail.com</td>
+<td><a href="https://www.linkedin.com/in/andre-di-battista/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
 </tr>
 <tr>
-<td>4</td>
-<td>Existe diferenças entre o mundo OnPremises e Cloud?</td>
-<td>?</td>
+<td>BRUNA DE SOUZA CARVALHO LOURENÇO</td>
+<td>bruna.scarvalho@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/bruna-carvalho-lourenco/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
 </tr>
 <tr>
-<td>5</td>
-<td>Quais componentes fazem parte de uma Arquitetura de Dados?</td>
-<td>?</td>
+<td>CAIO AUGUSTO DE OLIVEIRA SILVA</td>
+<td>the.caiosilva@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/the-caio-silva"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>CLEITON JOSE MARCON</td>
+<td>cleitonmarcon@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/cleiton-marcon-1b269924"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>DANIEL DUARTE</td>
+<td>danielduarte0496@gmail.com</td>
+<td><a href="http://www.linkedin.com/in/daniel-duarte-601566189"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>DANIEL NASARIO DOS SANTOS</td>
+<td>nasario@ymail.com</td>
+<td><a href="https://www.linkedin.com/in/danielnasario/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>DAVI JOSÉ BUENO</td>
+<td>davijbueno@outlook.com</td>
+<td><a href="https://www.linkedin.com/in/davijosebueno"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>DAVID DA ROCHA FERNANDES COITINHO</td>
+<td>davidrocha.analista@gmail.com</td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>DYEGO SILVA PINTO</td>
+<td>dyegosp10@yahoo.com.br</td>
+<td><a href="https://pt.linkedin.com/in/dyegosilva"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>EMILIO LUCIO BORGES</td>
+<td>emilio.borges2012@gmail.com</td>
+<td><a href="http://linkedin.com/in/emilio-lucio"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>ERICK CURVELLO MUNIZ</td>
+<td>curvello.muniz@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/erickcmuniz"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>EVANDRO DE SOUZA SILVA JÚNIOR</td>
+<td>khaljc22@proton.me</td>
+<td><a href="https://www.linkedin.com/in/ev-jr-6a4b01272"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>EZEQUIEL B. PEDREIRA</td>
+<td>ezequielpedreira.business@outlook.com</td>
+<td><a href="https://www.linkedin.com/in/ezequielpedreira/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>GABRIEL CAMBA</td>
+<td>Gabriel.Camba@rhimagnesita.com</td>
+<td><a href="https://www.linkedin.com/in/gabriel-camba-153b5b131/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>GILDO GOMES GUARDA</td>
+<td>ggg@gao3.com.br</td>
+<td><a href="https://www.linkedin.com/in/gildogomes"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>GISELE SIQUEIRA</td>
+<td>gisique@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/gisele-siqueira/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>HERON CARLOS GONÇALVES</td>
+<td>heroncarlos67@gmail.com</td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>IGOR CAJADO ALVES</td>
+<td>igor.cajado@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/igorcajado/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>JOSUÉ QUEIROZ SERAFIM</td>
+<td>josue.serafim@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/josue-serafim/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>LUCIANO DE ANDRADE BORBA</td>
+<td>luhborbafilho@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/luhborba/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>MARCOS MYCHEL RIOS SOEIRO</td>
+<td>mychelrios@gmail.com</td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>MARISA MIYUKI</td>
+<td>mmkazama@yahoo.com.br</td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>MATEUS LUÍS SONCIN GAZOLA</td>
+<td>magazola06@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/mateusgazola/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>MICHEL LEANDRO DE SOUSA NODARI</td>
+<td>michelnodari@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/michelnodari/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>OSVALDO DA CRUZ FILHO</td>
+<td>osvaldobone16@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/osvaldo-cruz1/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>PAULO VINICIUS CORRÊA</td>
+<td>paulo.corre1501@hotmail.con</td>
+<td><a href="https://www.linkedin.com/in/paulo-vinicius-correa/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>PEDRO HENRIQUE SOUZA FARIAS LUSTOSA</td>
+<td>pedrohenriquelustosa@hotmail.com</td>
+<td><a href="https://www.linkedin.com/in/pedrohenriquefarias"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>PHELLIPE LOPES PEREIRA</td>
+<td>phellipe.lpereira@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/phellipelpereira/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>RAFAEL SILVA</td>
+<td>rafael.s.dev@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/rafael-silva-2017a2a3"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>RENATO ALVES</td>
+<td>comtato.ralves21@gmail.com</td>
+<td><a href="http://www.linkedin.com/in/renatoalves21"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>RENATO FIDELIS RIBEIRO</td>
+<td>fidelisrenato8@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/renato-fidelis-ribeiro-37a32649/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>RICARDO GONÇALVES RAMOS FILHO</td>
+<td>ricardogrf95@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/ricardo-grf95/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>RICARDO KOZIEL</td>
+<td>ricardoabreukoziel@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/ricardo-koziel/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>SHALOM MUNDELE ANDRÉ</td>
+<td>shalom.mundele@outlook.com</td>
+<td><a href="https://www.linkedin.com/in/shalomandre/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>SÓSTENES FRANÇA</td>
+<td>sostenes@projetogestao.com.br</td>
+<td><a href="https://www.linkedin.com/in/sosfranca/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>THIAGO PEDRAZI</td>
+<td>thiagopedrazi@hotmail.com</td>
+<td><a href="https://www.linkedin.com/in/thiago-pedrazi/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>TIAGO HENRIQUE DANTAS FERREIRA</td>
+<td>tiago.h.dantas@hotmail.com</td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>VALLAN SOUSA</td>
+<td>vallanlsousa@gmail.com</td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>WALLACE CAMARGO</td>
+<td>wallacecpdg@gmail.com</td>
+<td><a href="https://www.linkedin.com/in/wallace-camargo-35b615171/"><img alt="Image" src="../imagens/317750_linkedin_icon.png" /></a></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+</tr>
+<tr>
+<td>WILSON GUILHERME GONZAGA</td>
+<td>wggonzaga@gmail.com</td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
+<td><img alt="Image" src="../imagens/interrogacao.png" /></td>
 </tr>
 </tbody>
 </table>
-<p>Eis um pequeno aperitivo...</p>
-<h3 id="51-representacao-grafica-de-uma-arquitetura-bi-ou-arquitetura-on-premise">5.1 - Representação Gráfica de uma Arquitetura BI ou Arquitetura On-Premise</h3>
-<p><img alt="Image" src="../imagens/24_arquitetura_bi.png" /></p>
-<h3 id="52-representacao-grafica-de-uma-arquitetura-big-data-ou-modern-data-architecture">5.2 - Representação Gráfica de uma Arquitetura Big Data ou Modern Data Architecture</h3>
-<p><img alt="Image" src="../imagens/25_arquitetura_bigdata.png" /></p>
 
 
 

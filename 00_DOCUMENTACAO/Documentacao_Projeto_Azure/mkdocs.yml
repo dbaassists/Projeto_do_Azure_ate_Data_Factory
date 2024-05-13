@@ -34,7 +34,8 @@ nav:
   - 13. Carga de Dados no SQL Server Camada Relacional: 13_carga_sql_server_relacional.md    
   #- 14. Carga de Dados no SQL Server Camada Multidimensional: 14_carga_sql_server_multidimensional.md    
   - 14. Onde encontro os arquivos?: 15_arquivos.md      
-  - 15. Formulário de Inscrição: 16_formulario.md        
+  - 15. Formulário de Inscrição: 16_formulario.md 
+  - 16. Lista de Contatos: 17_contatos.md        
 
 markdown_extensions:
   - pymdownx.highlight:
