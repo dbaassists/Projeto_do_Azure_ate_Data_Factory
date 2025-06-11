@@ -8,7 +8,7 @@ Este Workshop tem como objetivo explorar todas as etapas do fluxo de dados de um
 
 Bem, amigo, caso tenha gostado da proposta, basta preencher o formulário abaixo para confirmar sua inscrição.
 
-O investimento será de R$ 250,00, podendo ser pago via PIX ou Cartão de Crédito.
+O investimento será de R$ 1000,00, podendo ser pago via PIX ou Cartão de Crédito.
 
 As aulas serão gravadas e estarão disponíveis no YouTube de forma privada!
 
