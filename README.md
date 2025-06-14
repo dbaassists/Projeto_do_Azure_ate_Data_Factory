@@ -16,7 +16,7 @@ Todo material do curso ficará disponível no GitHub -> [Material do Workshop](h
 
 E a documentação do projeto que será abordado no Workshop você encontra aqui -> [Documentação Projeto](https://dbaassists.github.io/Projeto_do_Azure_ate_Data_Factory/)
 
-O formulário de inscrição você encontra em -> [Formulário de Inscrição](https://forms.wix.com/f/7168778969481741171)
+Caso tenha interesse no treinamento, enviar um e-mail para dba.gabriel@yahoo.com.br ou dbaassists@gmail.com.
 
 No workshop, abordaremos os seguintes assuntos:
 
